@@ -1,0 +1,10 @@
+Spring:
+  datasource:
+    url: "{cipher}jdbc:postgresql://localhost:5432/boozeproducts"
+    username: "{cipher}postgres"
+    password: "{cipher}Sunxxl#567"
+  driver:
+    class: org.postgresql.driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+FrontEndIpAndPort: "{cipher}http://localhost:3000/"
