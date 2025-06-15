@@ -1,10 +1,10 @@
 Spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/boozeproducts
-    username: {cipher}50b608ec610d173f31c6518abea458fc8857381159d8b8c3d2a2a9f8fea51b11
-    password: {cipher}49c8c75cf39a7a6a728c0ef91b8b80f403469f1cfc76f4fcd159a0ac5994247f
+    username: "{cipher}50b608ec610d173f31c6518abea458fc8857381159d8b8c3d2a2a9f8fea51b11"
+    password: "{cipher}49c8c75cf39a7a6a728c0ef91b8b80f403469f1cfc76f4fcd159a0ac5994247f"
   driver:
     class: org.postgresql.driver
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
-FrontEndIpAndPort: {cipher}bdd1cf0fd63c0fa6bbea6c0262c1defc6f82f78a8955adf3dc4e5baa3480fbb4f1b625d44a897a4d656bdd57de8c1691
+FrontEndIpAndPort: "{cipher}bdd1cf0fd63c0fa6bbea6c0262c1defc6f82f78a8955adf3dc4e5baa3480fbb4f1b625d44a897a4d656bdd57de8c1691"
