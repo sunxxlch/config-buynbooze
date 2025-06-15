@@ -1,8 +1,8 @@
-spring:
+Spring:
   datasource:
-    url: "{cipher}jdbc:postgresql://localhost:5432/boozeproducts"
-    username: "{cipher}postgres"
-    password: "{cipher}Sunxxl#567"
+    url: "jdbc:postgresql://localhost:5432/boozeproducts"
+    username: "{cipher}50b608ec610d173f31c6518abea458fc8857381159d8b8c3d2a2a9f8fea51b11"
+    password: "{cipher}49c8c75cf39a7a6a728c0ef91b8b80f403469f1cfc76f4fcd159a0ac5994247f"
   driver:
     class: org.postgresql.driver
   jpa:
