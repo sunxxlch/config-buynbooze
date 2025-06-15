@@ -1,11 +1,11 @@
-Spring:
+spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/boozeproducts
     username: "{cipher}b3f9991c8f07cb9018b615f52fb11b3b0b1526fcb754e561439c767d9992aa72"
     password: "{cipher}116e515bde7d8a4c0c929cc9c911d3c3649d98e6d3f2c2e2f9777ccbcaf7946c"
-  driver-class-name: org.postgresql.Driver
-  hibernate:
-  ddl-auto: update
+  driver:
+    class: org.postgresql.Driver
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
-FrontEndIpAndPort: "{cipher}8d8e517ffd91111b690ac0e5540819dc710072ab2dc255c09b6684fc162a1d16"
+
+frontEndIpAndPort: "{cipher}8d8e517ffd91111b690ac0e5540819dc710072ab2dc255c09b6684fc162a1d16"
